@@ -18,21 +18,15 @@ function App() {
         </ul>
       </section>
 
-      <section className="professional-summary">
-        <h2>Professional Summary</h2>
-        <p>
-          Cloud & DevOps Engineer with 8 years of experience leading a dedicated team specializing in:
-        </p>
-        <ul>
-          <li>Tool building</li>
-          <li>Kubernetes administration in Docker EE</li>
-          <li>CI/CD pipeline design and support</li>
-          <li>Monitoring</li>
-          <li>Application administration</li>
-          <li>Container platform design and administration</li>
-        </ul>
-        <p>A complex problem-solver with an analytical and driven mindset, holding Terraform and Kubernetes Admin Certification.</p>
-      </section>
+    <section className="professional-summary">
+    <h2>Professional Summary</h2>
+    <p>
+    Cloud & DevOps Engineer with 8 years of experience leading a dedicated team specializing in tool building, 
+    Kubernetes administration in Docker EE, CI/CD pipeline design and support, monitoring, application 
+    administration, and container platform design and administration. A complex problem-solver with an analytical 
+    and driven mindset, holding Terraform and Kubernetes Admin Certification.
+    </p>
+    </section>
 
       <section className="technical-skills">
         <h2>Technical Skills</h2>
@@ -66,8 +60,9 @@ function App() {
       <section className="experience">
         <h2>Professional Experience</h2>
         <div className="job">
-          <h3>Software Engineer DevOps / GCP</h3>
-          <span>Lowe’s, Charlotte, NC | October 2022 - Present</span>
+        <h3>Software Engineer DevOps/GCP</h3>
+        <h3><strong>Employer:Lowe’s,Charlotte,NC</strong></h3>
+        <h3><span> October 2022 - Present</span></h3>
           <ul>
             <li>Implemented a production-ready, load-balanced, highly available, fault-tolerant GCP Kubernetes infrastructure from scratch using Akamai, GLB, F5, and Palo Alto application VMS.</li>
             <li>Developed, maintained, and enhanced post and pre-development scripts using Shell and Python.</li>
@@ -87,8 +82,9 @@ function App() {
         </div>
 
         <div className="job">
-          <h3>AWS DevOps Software Engineer</h3>
-          <span>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</span>
+          <h3>
+          <p> AWS DevOps Software Engineer
+          <span>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</span> </p> </h3>
           <ul>
             <li>Designed and implemented continuous integration and continuous delivery (CI/CD) pipelines to enhance engineering efficiency.</li>
             <li>Provisioned production-ready AWS cloud infrastructure and microservices container orchestration (EKS) using CloudFormation Templates.</li>
@@ -104,8 +100,7 @@ function App() {
         </div>
 
         <div className="job">
-          <h3>AWS/GCP Cloud Engineer</h3>
-          <span>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</span>
+        <h3><p>AWS/GCP Cloud Engineer at <span>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</span> </p></h3>
           <ul>
             <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab CI/CD.</li>
             <li>Managed Infrastructure as Code (IaC) with Terraform and CloudFormation for cloud resource provisioning, including EC2 instances, S3 buckets, and RDS databases.</li>
