@@ -1,63 +1,50 @@
-/* src/App.css */
+/* App.css */
 
+/* General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
+  padding: 20px;
+  background-color: #f4f4f4;
 }
 
 .resume-container {
-  max-width: 800px;
-  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Header styles */
 .header {
   text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
 }
 
-h1 {
-  font-size: 36px;
-  margin: 0;
+/* Contact info styles */
+.contact-info {
+  margin-bottom: 20px;
 }
 
-p {
-  margin: 5px 0;
-}
-
-.contact-info, .experience, .education, .skills {
-  margin: 20px 0;
-}
-
+/* Section styles */
 h2 {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #007bff;
   padding-bottom: 5px;
 }
 
+/* Bullet points */
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: disc; /* This ensures bullet points are displayed */
+  padding-left: 20px; /* Indentation for better visibility */
 }
 
-ul li {
-  margin: 5px 0;
+li {
+  margin-bottom: 10px; /* Adds spacing between list items */
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
+/* Footer styles */
+.footer {
   text-align: center;
   margin-top: 20px;
+  font-size: 0.8em;
+  color: #666;
 }
