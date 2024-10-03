@@ -14,7 +14,7 @@ function App() {
         <ul>
           <li><strong>Email:</strong> bharathmadvar@gmail.com</li>
           <li><strong>Phone:</strong> 732-783-8757</li>
-          <li><a href="https://www.linkedin.com/in/bharath-madvar-230a03271/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bharath-madvar-230a03271/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
         </ul>
       </section>
 
@@ -67,7 +67,7 @@ function App() {
         <h2>Professional Experience</h2>
         <div className="job">
           <h3>Software Engineer DevOps / GCP</h3>
-          <p>Lowe’s, Charlotte, NC | October 2022 - Present</p>
+          <span>Lowe’s, Charlotte, NC | October 2022 - Present</span>
           <ul>
             <li>Implemented a production-ready, load-balanced, highly available, fault-tolerant GCP Kubernetes infrastructure from scratch using Akamai, GLB, F5, and Palo Alto application VMS.</li>
             <li>Developed, maintained, and enhanced post and pre-development scripts using Shell and Python.</li>
@@ -88,7 +88,7 @@ function App() {
 
         <div className="job">
           <h3>AWS DevOps Software Engineer</h3>
-          <p>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</p>
+          <span>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</span>
           <ul>
             <li>Designed and implemented continuous integration and continuous delivery (CI/CD) pipelines to enhance engineering efficiency.</li>
             <li>Provisioned production-ready AWS cloud infrastructure and microservices container orchestration (EKS) using CloudFormation Templates.</li>
@@ -105,7 +105,7 @@ function App() {
 
         <div className="job">
           <h3>AWS/GCP Cloud Engineer</h3>
-          <p>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</p>
+          <span>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</span>
           <ul>
             <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab CI/CD.</li>
             <li>Managed Infrastructure as Code (IaC) with Terraform and CloudFormation for cloud resource provisioning, including EC2 instances, S3 buckets, and RDS databases.</li>
@@ -118,7 +118,7 @@ function App() {
 
         <div className="job">
           <h3>DevOps Engineer</h3>
-          <p>Unigo Inc., Irving, Texas | April 2018 - March 2019</p>
+          <span>Unigo Inc., Irving, Texas | April 2018 - March 2019</span>
           <ul>
             <li>Automated release pipeline for zero-touch deployment using Jenkins, Bitbucket, and JFrog.</li>
             <li>Assisted developers with establishing branching and labeling conventions.</li>
