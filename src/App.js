@@ -13,7 +13,7 @@ function App() {
         <h2>Contact Information</h2>
         <p><strong>Email:</strong> bharathmadvar@gmail.com</p>
         <p><strong>Phone:</strong> 732-783-8757</p>
-        <p><strong>LinkedIn:</strong> <a href="linkedin.com/in/bharath-madvar-230a03271">LinkedIn Profile</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/bharath-madvar-230a03271" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </section>
 
       <section className="professional-summary">
@@ -122,28 +122,6 @@ function App() {
             <li>Employed Docker containers for rapid deployment of Linux-based applications.</li>
             <li>Created and maintained Jenkins health reports and Confluence documentation.</li>
             <li>Utilized GSM and Remedy Smart IT for incident and change management.</li>
-          </ul>
-        </div>
-        
-        <div className="job">
-          <h3>Systems Engineer - Vistaprint</h3>
-          <p><em>Windsor, Connecticut | April 2016 - April 2018</em></p>
-          <ul>
-            <li>Designed, implemented, and managed scalable and secure infrastructure using AWS services.</li>
-            <li>Participated in cloud migration initiatives, moving legacy applications to AWS.</li>
-            <li>Utilized Infrastructure as Code (IaC) using Terraform and CloudFormation to automate resource provisioning.</li>
-            <li>Collaborated with development teams to enhance application performance and security.</li>
-            <li>Managed network infrastructure, including VPC, subnets, and security groups.</li>
-          </ul>
-        </div>
-
-        <div className="job">
-          <h3>IT Consultant - JDA Software</h3>
-          <p><em>Scottsdale, Arizona | September 2014 - April 2016</em></p>
-          <ul>
-            <li>Provided technical expertise and support for JDA's supply chain management solutions.</li>
-            <li>Assisted clients in implementing and optimizing JDA software products.</li>
-            <li>Collaborated with cross-functional teams to identify and resolve technical issues.</li>
           </ul>
         </div>
 
