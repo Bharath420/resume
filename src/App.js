@@ -5,45 +5,53 @@ function App() {
   return (
     <div className="resume-container">
       <header className="header">
-        <h1>Bharath Madvar's Resume</h1>
+        <h1>Bharath Madvar</h1>
         <p>Cloud & DevOps Engineer</p>
       </header>
 
       <section className="contact-info">
         <h2>Contact Information</h2>
-        <p><strong>Email:</strong> bharathmadvar@gmail.com</p>
-        <p><strong>Phone:</strong> 732-783-8757</p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/bharath-madvar-230a03271" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        <ul>
+          <li><strong>Email:</strong> bharathmadvar@gmail.com</li>
+          <li><strong>Phone:</strong> 732-783-8757</li>
+          <li><a href="https://www.linkedin.com/in/bharath-madvar-230a03271/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+        </ul>
       </section>
 
       <section className="professional-summary">
         <h2>Professional Summary</h2>
         <p>
-          Cloud & DevOps Engineer with 8 years of experience leading a dedicated team specializing in tool building, Kubernetes administration in Docker EE, CI/CD pipeline design and support, monitoring, application administration, and container platform design and administration. A complex problem-solver with an analytical and driven mindset, holding Terraform and Kubernetes Admin Certification.
+          Cloud & DevOps Engineer with 8 years of experience leading a dedicated team specializing in:
         </p>
+        <ul>
+          <li>Tool building</li>
+          <li>Kubernetes administration in Docker EE</li>
+          <li>CI/CD pipeline design and support</li>
+          <li>Monitoring</li>
+          <li>Application administration</li>
+          <li>Container platform design and administration</li>
+        </ul>
+        <p>A complex problem-solver with an analytical and driven mindset, holding Terraform and Kubernetes Admin Certification.</p>
       </section>
 
-      <section className="skills">
+      <section className="technical-skills">
         <h2>Technical Skills</h2>
         <ul>
-          <li>CLOUD - AWS, GCP</li>
-          <li>Infrastructure as Code: Terraform, CloudFormation</li>
-          <li>Operating Systems: Linux (Red Hat, CentOS, SUSE), Ubuntu, HPUX, Windows</li>
-          <li>Scripting: Shell Scripting, Groovy, Python, Ruby, Perl, PowerShell</li>
-          <li>Build Tools: Maven, Gradle, Sonar, Nexus, Ant</li>
-          <li>Version Control Tools: GIT, GitHub, GitLab, Subversion (SVN), Bitbucket</li>
-          <li>Orchestration Tools: Kubernetes, Docker Swarm, Google Cloud Engine</li>
-          <li>Networking Protocols: TCP/IP, DNS, DHCP, Cisco Routers/Switches, WAN, LAN, SMTP</li>
-          <li>Monitoring Tools: Nagios, AWS CloudWatch, Splunk, ELK</li>
+          <li><strong>CLOUD:</strong> AWS, GCP</li>
+          <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation</li>
+          <li><strong>Operating Systems:</strong> Linux (Red Hat, CentOS, SUSE), Ubuntu, HPUX, Windows</li>
+          <li><strong>Scripting:</strong> Shell Scripting, Groovy, Python, Ruby, Perl, PowerShell</li>
+          <li><strong>Build Tools:</strong> Maven, Gradle, Sonar, Nexus, Ant</li>
+          <li><strong>Version Control Tools:</strong> GIT, GitHub, GitLab, Subversion (SVN), Bitbucket</li>
+          <li><strong>Orchestration Tools:</strong> Kubernetes, Docker Swarm, Google Cloud Engine</li>
+          <li><strong>Networking Protocols:</strong> TCP/IP, DNS, DHCP, Cisco Routers/Switches, WAN, LAN, SMTP</li>
+          <li><strong>Monitoring Tools:</strong> Nagios, AWS CloudWatch, Splunk, ELK</li>
         </ul>
       </section>
 
       <section className="education">
         <h2>Education</h2>
-        <div className="school">
-          <h3>Master’s in Computer Science and Web Development Technology - Wilmington University</h3>
-          <p><em>New Castle, DE | 2017</em></p>
-        </div>
+        <p><strong>Master’s in Computer Science and Web Development Technology</strong> - Wilmington University, New Castle, DE | 2017</p>
       </section>
 
       <section className="certifications">
@@ -57,14 +65,13 @@ function App() {
 
       <section className="experience">
         <h2>Professional Experience</h2>
-        
         <div className="job">
-          <h3>Software Engineer DevOps / GCP - Lowe’s</h3>
-          <p><em>Charlotte, NC | October 2022 - Present</em></p>
+          <h3>Software Engineer DevOps / GCP</h3>
+          <p>Lowe’s, Charlotte, NC | October 2022 - Present</p>
           <ul>
             <li>Implemented a production-ready, load-balanced, highly available, fault-tolerant GCP Kubernetes infrastructure from scratch using Akamai, GLB, F5, and Palo Alto application VMS.</li>
             <li>Developed, maintained, and enhanced post and pre-development scripts using Shell and Python.</li>
-            <li>Managed and configured GCP service accounts, IAM policies, Google Cloud Virtual Private Cloud (VPC), subnets, Compute, Storage, Networking, GCS buckets, and GKE using Terraform as Infrastructure as Code.</li>
+            <li>Managed and configured GCP service accounts, IAM policies, Google Cloud VPC, subnets, Compute, Storage, Networking, GCS buckets, and GKE using Terraform as Infrastructure as Code.</li>
             <li>Created dynamic routing/load balancing capabilities by enabling large application scaling using Istio-gateway.</li>
             <li>Developed and managed LEC with Loci template for end-to-end self-service deployments to developers.</li>
             <li>Utilized Venafi as a Service (VaaS) and Venafi Trust Protection Platform (TPP) for certificate issuer management integrated with cert-manager.</li>
@@ -80,8 +87,8 @@ function App() {
         </div>
 
         <div className="job">
-          <h3>AWS DevOps Software Engineer - TSYS Global Payments</h3>
-          <p><em>Alpharetta, GA | June 2021 - October 2022</em></p>
+          <h3>AWS DevOps Software Engineer</h3>
+          <p>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</p>
           <ul>
             <li>Designed and implemented continuous integration and continuous delivery (CI/CD) pipelines to enhance engineering efficiency.</li>
             <li>Provisioned production-ready AWS cloud infrastructure and microservices container orchestration (EKS) using CloudFormation Templates.</li>
@@ -97,8 +104,8 @@ function App() {
         </div>
 
         <div className="job">
-          <h3>AWS/GCP Cloud Engineer - Object Computing, Inc.</h3>
-          <p><em>Saint Louis, MO | March 2019 - May 2021</em></p>
+          <h3>AWS/GCP Cloud Engineer</h3>
+          <p>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</p>
           <ul>
             <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab CI/CD.</li>
             <li>Managed Infrastructure as Code (IaC) with Terraform and CloudFormation for cloud resource provisioning, including EC2 instances, S3 buckets, and RDS databases.</li>
@@ -110,8 +117,8 @@ function App() {
         </div>
 
         <div className="job">
-          <h3>DevOps Engineer - Unigo Inc.</h3>
-          <p><em>Irving, Texas | April 2018 - March 2019</em></p>
+          <h3>DevOps Engineer</h3>
+          <p>Unigo Inc., Irving, Texas | April 2018 - March 2019</p>
           <ul>
             <li>Automated release pipeline for zero-touch deployment using Jenkins, Bitbucket, and JFrog.</li>
             <li>Assisted developers with establishing branching and labeling conventions.</li>
@@ -124,23 +131,12 @@ function App() {
             <li>Utilized GSM and Remedy Smart IT for incident and change management.</li>
           </ul>
         </div>
-
       </section>
 
       <section className="projects">
         <h2>Projects</h2>
-        <ul>
-          <li><strong>Automated Deployment Framework:</strong> Developed a comprehensive deployment framework using Jenkins and Terraform, allowing teams to deploy applications across multiple environments with minimal manual intervention, resulting in a 50% reduction in deployment time.</li>
-          <li><strong>Cloud Monitoring Solution:</strong> Designed and implemented a cloud monitoring solution using Prometheus and Grafana to monitor application performance and infrastructure health, leading to proactive issue resolution and improved uptime.</li>
-          <li><strong>CI/CD for Microservices:</strong> Built a CI/CD pipeline for a microservices architecture using GitLab CI/CD and Docker, enabling automatic testing and deployment of services, which increased development speed by 40%.</li>
-          <li><strong>Security Enhancement Project:</strong> Integrated HashiCorp Vault with Kubernetes to secure application secrets, ensuring compliance with security standards and minimizing the risk of data breaches.</li>
-          <li><strong>Cost Optimization Strategy:</strong> Implemented cost monitoring tools and policies across AWS and GCP environments, achieving a 20% reduction in cloud expenditure by identifying and eliminating underutilized resources.</li>
-        </ul>
+        <p>Details about your projects can go here.</p>
       </section>
-
-      <footer className="footer">
-        <p>&copy; 2024 Bharath Madvar. All rights reserved.</p>
-      </footer>
     </div>
   );
 }

@@ -1,50 +1,67 @@
-/* App.css */
-
-/* General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   background-color: #f4f4f4;
 }
 
 .resume-container {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styles */
 .header {
   text-align: center;
-}
-
-/* Contact info styles */
-.contact-info {
+  border-bottom: 2px solid #4CAF50;
   margin-bottom: 20px;
 }
 
-/* Section styles */
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+
 h2 {
-  border-bottom: 2px solid #007bff;
+  color: #4CAF50;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
 
-/* Bullet points */
+h3 {
+  margin: 10px 0;
+}
+
 ul {
-  list-style-type: disc; /* This ensures bullet points are displayed */
-  padding-left: 20px; /* Indentation for better visibility */
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 li {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
-/* Footer styles */
-.footer {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 0.8em;
-  color: #666;
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.job {
+  margin-bottom: 20px;
 }
