@@ -13,8 +13,7 @@ function App() {
         <h2>Contact Information</h2>
         <p><strong>Email:</strong> bharathmadvar@gmail.com</p>
         <p><strong>Phone:</strong> 732-783-8757</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile/">LinkedIn Profile</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/Bharath420">Bharath420</a></p>
+        <p><strong>LinkedIn:</strong> <a href="linkedin.com/in/bharath-madvar-230a03271">LinkedIn Profile</a></p>
       </section>
 
       <section className="professional-summary">
@@ -58,6 +57,7 @@ function App() {
 
       <section className="experience">
         <h2>Professional Experience</h2>
+        
         <div className="job">
           <h3>Software Engineer DevOps / GCP - Lowe’s</h3>
           <p><em>Charlotte, NC | October 2022 - Present</em></p>
@@ -121,30 +121,42 @@ function App() {
             <li>Maintained a test environment for automation for QA, Product Management, and Product Support using IBM Cloud Services.</li>
             <li>Employed Docker containers for rapid deployment of Linux-based applications.</li>
             <li>Created and maintained Jenkins health reports and Confluence documentation.</li>
-            <li>Utilized GSM and Remedy Smart IT for ticketing and infrastructure automation tracking.</li>
-            <li>Troubleshot build issues in Jenkins and generated performance metrics using Groovy scripts.</li>
+            <li>Utilized GSM and Remedy Smart IT for incident and change management.</li>
           </ul>
         </div>
+        
+        <div className="job">
+          <h3>Systems Engineer - Vistaprint</h3>
+          <p><em>Windsor, Connecticut | April 2016 - April 2018</em></p>
+          <ul>
+            <li>Designed, implemented, and managed scalable and secure infrastructure using AWS services.</li>
+            <li>Participated in cloud migration initiatives, moving legacy applications to AWS.</li>
+            <li>Utilized Infrastructure as Code (IaC) using Terraform and CloudFormation to automate resource provisioning.</li>
+            <li>Collaborated with development teams to enhance application performance and security.</li>
+            <li>Managed network infrastructure, including VPC, subnets, and security groups.</li>
+          </ul>
+        </div>
+
+        <div className="job">
+          <h3>IT Consultant - JDA Software</h3>
+          <p><em>Scottsdale, Arizona | September 2014 - April 2016</em></p>
+          <ul>
+            <li>Provided technical expertise and support for JDA's supply chain management solutions.</li>
+            <li>Assisted clients in implementing and optimizing JDA software products.</li>
+            <li>Collaborated with cross-functional teams to identify and resolve technical issues.</li>
+          </ul>
+        </div>
+
       </section>
 
       <section className="projects">
         <h2>Projects</h2>
         <ul>
-          <li>
-            <strong>Automated Deployment Framework:</strong> Developed a comprehensive deployment framework using Jenkins and Terraform, allowing teams to deploy applications across multiple environments with minimal manual intervention, resulting in a 50% reduction in deployment time.
-          </li>
-          <li>
-            <strong>Cloud Monitoring Solution:</strong> Designed and implemented a cloud monitoring solution using Prometheus and Grafana to monitor application performance and infrastructure health, leading to proactive issue resolution and improved uptime.
-          </li>
-          <li>
-            <strong>CI/CD for Microservices:</strong> Built a CI/CD pipeline for a microservices architecture using GitLab CI/CD and Docker, enabling automatic testing and deployment of services, which increased development speed by 40%.
-          </li>
-          <li>
-            <strong>Security Enhancement Project:</strong> Integrated HashiCorp Vault with Kubernetes to secure application secrets, ensuring compliance with security standards and minimizing the risk of data breaches.
-          </li>
-          <li>
-            <strong>Cost Optimization Strategy:</strong> Implemented cost monitoring tools and policies across AWS and GCP environments, achieving a 20% reduction in cloud expenditure by identifying and eliminating underutilized resources.
-          </li>
+          <li><strong>Automated Deployment Framework:</strong> Developed a comprehensive deployment framework using Jenkins and Terraform, allowing teams to deploy applications across multiple environments with minimal manual intervention, resulting in a 50% reduction in deployment time.</li>
+          <li><strong>Cloud Monitoring Solution:</strong> Designed and implemented a cloud monitoring solution using Prometheus and Grafana to monitor application performance and infrastructure health, leading to proactive issue resolution and improved uptime.</li>
+          <li><strong>CI/CD for Microservices:</strong> Built a CI/CD pipeline for a microservices architecture using GitLab CI/CD and Docker, enabling automatic testing and deployment of services, which increased development speed by 40%.</li>
+          <li><strong>Security Enhancement Project:</strong> Integrated HashiCorp Vault with Kubernetes to secure application secrets, ensuring compliance with security standards and minimizing the risk of data breaches.</li>
+          <li><strong>Cost Optimization Strategy:</strong> Implemented cost monitoring tools and policies across AWS and GCP environments, achieving a 20% reduction in cloud expenditure by identifying and eliminating underutilized resources.</li>
         </ul>
       </section>
 
