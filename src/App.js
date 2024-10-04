@@ -4,19 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="resume-container">
-      <header className="header">
-        <h1>Bharath Madvar</h1>
-        <p>Cloud & DevOps Engineer</p>
-      </header>
-
-      <section className="contact-info">
-        <h2>Contact Information</h2>
-        <ul>
-          <li><strong>Email:</strong> bharathmadvar@gmail.com</li>
-          <li><strong>Phone:</strong> 732-783-8757</li>
-          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bharath-madvar-230a03271/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
-        </ul>
-      </section>
+<header className="header">
+  <h1>Bharath M</h1>
+  <p>Senior Software Engineer</p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bharath-madvar-230a03271/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+</header>
 
     <section className="professional-summary">
     <h2>Professional Summary</h2>
@@ -31,7 +23,7 @@ function App() {
       <section className="technical-skills">
         <h2>Technical Skills</h2>
         <ul>
-          <li><strong>CLOUD:</strong> AWS, GCP</li>
+          <li><strong>CLOUD:</strong> AWS, GCP, Azure</li>
           <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation</li>
           <li><strong>Operating Systems:</strong> Linux (Red Hat, CentOS, SUSE), Ubuntu, HPUX, Windows</li>
           <li><strong>Scripting:</strong> Shell Scripting, Groovy, Python, Ruby, Perl, PowerShell</li>
@@ -57,38 +49,50 @@ function App() {
         </ul>
       </section>
 
-      <section className="experience">
-        <h2>Professional Experience</h2>
-        <div className="job">
-        <h3>Software Engineer DevOps/GCP</h3>
-        <h3><strong>Employer:Lowe’s,Charlotte,NC</strong></h3>
-        <h3><span> October 2022 - Present</span></h3>
+    <section className="experience">
+    <h2>Professional Experience</h2>
+    <div className="job">
+    <h3>Senior Software Engineer .</h3>
+    <h3>
+    <strong>Employer: Lowe’s, Charlotte, NC.
+    <span style={{ float: 'right' }}>October 2022 - Present</span>
+    </strong>
+    </h3>
+    <p>The primary objective of this project is to enhance Lowe’s 
+     cloud infrastructure on Google Cloud Platform (GCP) to achieve improved scalability,reliability, security, and cost efficiency. 
+     In addition, the project aims to implement a robust Continuous Integration/Continuous Deployment (CI/CD) pipeline that streamlines software development processes, accelerates deployment times, and reduces operational costs, 
+     all while maintaining high standards of professionalism and best practices.</p>
           <ul>
-            <li>Implemented a production-ready, load-balanced, highly available, fault-tolerant GCP Kubernetes infrastructure from scratch using Akamai, GLB, F5, and Palo Alto application VMS.</li>
-            <li>Developed, maintained, and enhanced post and pre-development scripts using Shell and Python.</li>
-            <li>Managed and configured GCP service accounts, IAM policies, Google Cloud VPC, subnets, Compute, Storage, Networking, GCS buckets, and GKE using Terraform as Infrastructure as Code.</li>
-            <li>Created dynamic routing/load balancing capabilities by enabling large application scaling using Istio-gateway.</li>
-            <li>Developed and managed LEC with Loci template for end-to-end self-service deployments to developers.</li>
-            <li>Utilized Venafi as a Service (VaaS) and Venafi Trust Protection Platform (TPP) for certificate issuer management integrated with cert-manager.</li>
-            <li>Managed Vault OIDC method for secret policy and path-based configuration based on GCP service accounts.</li>
-            <li>Used Terraform as IaaS to provision GCP platform, adding IAM, AD_GROUP and service accounts, node pools, autoscaling, CIDR ranges, and managing GKE.</li>
-            <li>Managed custom Helm build templates for Spinnaker, security webhooks, Vault, and Forseti security tools integrated with JFrog Artifactory.</li>
-            <li>Implemented data visualization with Forseti security tool by integrating scanner, inventory, explanation, and notifier modules with GCP Cloud SQL.</li>
-            <li>Created fully automated build, test, and deployment processes using Spinnaker for deploying new versions.</li>
-            <li>Troubleshot and analyzed networking packet captures using Wireshark, Tcpdump, and hey tools.</li>
-            <li>Developed Grafana Dashboards for GLB latency errors, Kubernetes resources, Vault, and Istio requests.</li>
-            <li>Maintained documentation using MkDocs and Confluence.</li>
+          <li>Engineered and implemented a robust, highly available, and fault-tolerant Kubernetes infrastructure on Google Cloud Platform (GCP) from the ground up, utilizing technologies such as Akamai, GLB, F5, and Palo Alto VM series.</li>
+          <li>Developed and maintained automation scripts in Shell and Python to enhance pre- and post-development processes.</li>
+          <li>Configured GCP services, including Google API's, IAM/MFA policies, VPCs, subnets, Compute Engine, Storage, Networking, GCS buckets, and GKE clusters using Terraform for Infrastructure as Code (IaC).</li>
+          <li>Integrated Istio Gateway to enable dynamic routing and load balancing, facilitating large-scale application deployments.</li>
+          <li>Managed the lifecycle of self-service deployments for developers by implementing a LEC with Loci templates.</li>
+          <li>Implemented certificate management using Venafi Trust Protection Platform (TPP) and Venafi as a Service (VaaS), integrated with cert-manager.</li>
+          <li>Managed Vault OIDC for secret policies and path-based configuration tied to GCP service accounts.</li>
+          <li>Developed custome Helm templates for Spinnaker pipelines, security webhooks, and integrated Vault and Forseti security tools with JFrog Artifactory.</li>
+          <li>Visualized security data with Forseti, integrating its scanner, inventory, explanation, and notifier modules with GCP Cloud SQL.</li>
+          <li>Automated CI/CD processes using Spinnaker to support continuous delivery of new application versions.</li>
+          <li>Utilized network analysis tools such as Wireshark, Tcpdump, and hey tool to troubleshoot and resolve networking issues.</li>
+          <li>Developed Grafana dashboards to monitor Kubernetes resources, Vault performance, Istio traffic, and GLB latency errors.</li>
+          <li>Maintained comprehensive documentation using MkDocs and Confluence.</li>
           </ul>
-        </div>
+      </div>
 
         <div className="job">
+          <h3>Senior AWS/DevOps Engineer.</h3>
           <h3>
-          <p> AWS DevOps Software Engineer
-          <span>TSYS Global Payments, Alpharetta, GA | June 2021 - October 2022</span> </p> </h3>
+            <strong>Employer: Global Payments, Alpharetta, GA .
+            <span style={{ float: 'right' }}>June 2021 - October 2022</span>
+            </strong>
+        </h3>
+        <p>The key goal of this project is to modernize and optimize Global Payments' cloud infrastructure on AWS(Amazon Web Service) to support the high-volume demands of financial transactions, 
+          ensuring unparalleled scalability, enhanced reliability, and fortified security.The entire project will adhere strictly to financial industry regulations, such as PCI DSS, 
+          and be executed with the highest standards of security and performance critical to a payment processing environment.</p>
           <ul>
             <li>Designed and implemented continuous integration and continuous delivery (CI/CD) pipelines to enhance engineering efficiency.</li>
             <li>Provisioned production-ready AWS cloud infrastructure and microservices container orchestration (EKS) using CloudFormation Templates.</li>
-            <li>Managed AWS services including VPC, EKS, EFS, EC2, ECS, S3, RDS, DynamoDB, Route 53, ELB, Auto-Scaling, SQS, SNS, CloudWatch, KMS, and IAM.</li>
+            <li>Employed Terraform to automate provisioning of AWS infrastructure including IAM roles, service accounts, node pools, autoscaling policies, and EKS configurations.</li>
             <li>Integrated Kubernetes with HashiCorp Vault for runtime application secrets management using init and sidecar injectors.</li>
             <li>Created reproducible builds of Kubernetes applications by managing Kubernetes manifest files and Helm packages.</li>
             <li>Integrated and managed AWS Service Catalog products for developer self-service deployments.</li>
@@ -100,37 +104,52 @@ function App() {
         </div>
 
         <div className="job">
-        <h3><p>AWS/GCP Cloud Engineer at <span>Object Computing, Inc., Saint Louis, MO | March 2019 - May 2021</span> </p></h3>
+  <h3>Cloud Infrastructure Engineer</h3>
+  <h3>
+    <strong>
+      Employer: Object Computing, Inc., Saint Louis, Missouri.
+      <span style={{ float: 'right' }}> March 2018 - May 2021</span> </strong>
+      </h3>
+    <p>As a Cloud Infrastructure Engineer at Object Computing, Inc., I successfully managed and optimized cloud environments for multiple high-profile clients, including Boeing and the North Dakota Department of Health. My role involved leveraging Infrastructure as Code (IaC) principles, implementing CI/CD pipelines, and orchestrating containerization strategies, 
+      all while ensuring compliance and enhancing operational efficiency.</p>
+  <h3 style={{ marginTop: '10px' }}>
+    <strong>Clients: Boeing</strong>
+  </h3>
+  <ul>
+    <li>Managed Infrastructure as Code (IaC) using CloudFormation Templates for provisioning and automating AWS resources, ensuring consistent and repeatable environments while reducing manual intervention.</li>
+    <li>Utilized CloudFormation to define, deploy, and update infrastructure stacks, enhancing scalability, resource tracking, and version control for infrastructure deployments.</li>
+    <li>Configured and managed Docker images for containerization on Elastic Kubernetes Service (EKS), overseeing both Docker cosmos image creation and Kubernetes resource management.</li>
+    <li>Created monitoring Grafana dashboards for all production clusters by integrating cluster API.</li>
+    <li>Collaborated with cross-functional teams to deliver high-quality software releases.</li>
+  </ul>
+
+  <h3 style={{ marginTop: '10px' }}>
+    <strong>North Dakota Department of Health</strong>
+  </h3>
+  <ul>
+    <li>Constructed and installed servers through Azure Resource Manager (ARM) Templates or Azure Portal.</li>
+    <li>Developed and designed Azure DevOps pipeline to manage resources across multiple subscriptions in Azure.</li>
+    <li>Provisioned servers/instances using infrastructure as code such as Terraform and CloudFormation, with code stored in a private repository and constantly updated.</li>
+    <li>Integrated Docker container orchestration framework using Kubernetes by creating pods, Config Maps, and deployments.</li>
+    <li>Used Splunk APM for log aggregation and analysis on different application servers, integrating Splunk with Single Sign-On authentication and ServiceNow ticketing tool.</li>
+  </ul>
+</div>
+   <div className="job">
+        <h3>DevOps Engineer</h3>
+        <h3>
+        <strong>Employer: Mastercard Inc, O'Fallon, Missouri.
+            <span style={{ float: 'right' }}> April 2017 - March 2018</span>
+            </strong>
+          </h3>
           <ul>
-            <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab CI/CD.</li>
-            <li>Managed Infrastructure as Code (IaC) with Terraform and CloudFormation for cloud resource provisioning, including EC2 instances, S3 buckets, and RDS databases.</li>
-            <li>Managed AWS services such as VPC, EC2, ECS, S3, RDS, DynamoDB, EFS, Route53, ELB, Auto-Scaling, SQS, SNS, CloudWatch, KMS, and IAM.</li>
-            <li>Configured and managed Docker and Kubernetes containerization platforms, including Docker images and Kubernetes resources.</li>
-            <li>Utilized monitoring and logging tools like Prometheus, Grafana, ELK Stack, and AWS CloudWatch.</li>
-            <li>Collaborated with cross-functional teams to deliver high-quality software releases.</li>
+          <li>Automated CI/CD pipelines for zero-touch deployments using Jenkins, Bitbucket, and JFrog Artifactory, significantly reducing manual intervention.</li>
+          <li>Deployed artifacts to JFrog Artifactory using Maven and managed dependencies for multiple environments.</li>
+          <li>Configured CloudBees Enterprise Jenkins for CI automation, managing plugins, security, and master-slave configurations.</li>
+          <li>Maintained and managed test environments across IBM Cloud services, supporting QA, Product Management, and Product Support.</li>
+          <li>Deployed and managed Linux-based applications using Docker for rapid and scalable development environments.</li>
+          <li>Utilized GSM and Remedy Smart IT for effective incident and change management.</li>
           </ul>
         </div>
-
-        <div className="job">
-          <h3>DevOps Engineer</h3>
-          <span>Unigo Inc., Irving, Texas | April 2018 - March 2019</span>
-          <ul>
-            <li>Automated release pipeline for zero-touch deployment using Jenkins, Bitbucket, and JFrog.</li>
-            <li>Assisted developers with establishing branching and labeling conventions.</li>
-            <li>Deployed artifacts to JFrog Artifactory using Maven dependency management.</li>
-            <li>Configured CloudBees Enterprise Jenkins for CI automation and managed plugins, security, and master/worker configurations.</li>
-            <li>Utilized Python and Bash scripting for automation tasks.</li>
-            <li>Maintained a test environment for automation for QA, Product Management, and Product Support using IBM Cloud Services.</li>
-            <li>Employed Docker containers for rapid deployment of Linux-based applications.</li>
-            <li>Created and maintained Jenkins health reports and Confluence documentation.</li>
-            <li>Utilized GSM and Remedy Smart IT for incident and change management.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="projects">
-        <h2>Projects</h2>
-        <p>Details about your projects can go here.</p>
       </section>
     </div>
   );
